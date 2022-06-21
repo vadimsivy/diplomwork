@@ -1,0 +1,17 @@
+.team {
+	width: 1170px;
+	height: 620px;
+	margin: 114px auto;
+	display: flex;
+	justify-content: space-between;
+}
+.team__item1 {
+	width: 270px;
+	height: 620px;
+}
+.team__item1-social {
+}
+.team__item1-img{
+	width: 270px;
+	height: 270px;
+}
