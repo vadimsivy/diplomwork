@@ -124,19 +124,38 @@
 	height: 340px;
 	opacity: 1;
 }
-.work__item-img8{
+figure.effect-honey {
 	width: 378px;
 	height: 340px;
+	margin: 0;
+	position: relative;
+	overflow: hidden;
 }
-.work__item-img8:hover{
-	content: url(/img/Group6.png);
-	width: 377px;
-	height: 340px;
-	opacity: 0.8;
+figure.effect-honey:hover{
+	background-color: #ff4343;
 }
-.work__item-img8:active{
-	content: url(/img/Group7.png);
-	width: 378px;
-	height: 340px;
-	opacity: 1;
+
+figure.effect-honey img {
+	opacity: 0.9;
+	-webkit-transition: opacity 0.35s;
+	transition: opacity 0.35s;
+}
+
+figure.effect-honey:hover img {
+	opacity: 0.2;
+}
+
+figure.effect-honey:hover h2 {
+	position: absolute;
+	top: 120px;
+	left: 100px;
+	width: 100%;
+	text-align: left;
+}
+figure.effect-honey:hover p {
+	position: absolute;
+	top: 170px;
+	left: 100px;
+	width: 100%;
+	text-align: left;
 }

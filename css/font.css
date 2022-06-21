@@ -131,6 +131,26 @@
 	color: #808080;
 	text-align: center;
 }
+.raleway900-24-white{
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 900;
+	font-size: 24px;
+	line-height: 28px;
+	color:white;
+	text-align: center;
+	text-transform: uppercase;
+}
+.raleway400-18-white{
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 21px;
+	color:white;
+	text-align: center;
+}
+
 
 
 
