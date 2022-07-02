@@ -1,0 +1,24 @@
+.download{
+	margin: 114px auto;
+	max-width: 1170px;
+	height: auto;
+}
+.download__a{
+	margin: 50px auto;
+	display: block;
+	width: 370px;
+	height: 80px;
+	background-color: #FF4343;
+	text-decoration: none;
+	text-transform: uppercase;
+	line-height: 80px;
+	vertical-align: middle;
+}
+.download__a:hover{
+	background-color: #E71414;
+}
+.download__a:active{
+	box-shadow: 4px 4px 30px #FF4343;
+}
+
+/*# sourceMappingURL=/download.fc795f1f.css.map */
