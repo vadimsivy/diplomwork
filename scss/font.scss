@@ -39,6 +39,9 @@
 	color: white;
 	text-align: center;
 	text-decoration: none;
+	@media screen and (min-width: 320px) and (max-width: 479px){
+		font-size: 15px;
+	}
 }
 .raleway900-24-black{
 	font-family: 'Raleway', sans-serif;
@@ -142,6 +145,9 @@
 	color: white;
 	text-align: center;
 	line-height: 21px;
+	@media screen and (min-width: 320px) and (max-width: 479px){
+		font-size: 14px;
+	}
 }
 .raleway400-18-grey-footer{
 	font-family: 'Raleway';
@@ -152,25 +158,7 @@
 	color: #808080;
 	text-align: center;
 }
-.raleway900-24-white{
-	font-family: 'Raleway';
-	font-style: normal;
-	font-weight: 900;
-	font-size: 24px;
-	line-height: 28px;
-	color:white;
-	text-align: center;
-	text-transform: uppercase;
-}
-.raleway400-18-white{
-	font-family: 'Raleway';
-	font-style: normal;
-	font-weight: 400;
-	font-size: 18px;
-	line-height: 21px;
-	color:white;
-	text-align: center;
-}
+
 
 
 
