@@ -5,20 +5,38 @@
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
+	gap: 2px;
 	position: relative;
 }
 
 figure.effect-honey {
-	max-width: 378px;
-	min-width: 320px;
+	width: 375px;
 	height: 340px;
-	margin: 0;
 	position: relative;
 	overflow: hidden;
+	margin: 0 0 0 0;
+	@media screen and (min-width: 1023px) and (max-width: 1508px){
+		width: 240px;
+		height: 230px;
+	}
+	@media screen and (min-width: 500px) and (max-width: 1022px){
+		width: 200px;
+		height: 200px;
+	}
+	@media screen and (min-width: 10px) and (max-width: 499px){
+		width: 158px;
+		height: 144px;
+	}
+
+}
+figure img{
+	width: 100%;
+	height: 100%;
 }
 figure.effect-honey:hover{
 	background-color: #ff4343;
 	opacity: 0.8;
+	overflow: hidden;
 }
 figure.effect-honey:active{
 	background-color: #ff4343;

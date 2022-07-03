@@ -14,6 +14,9 @@
 	-moz-box-sizing: border-box;
 	-o-box-sizing: border-box;
 	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 .slider {
@@ -38,6 +41,18 @@
 	-moz-transition: transform ease-in-out .5s, opacity ease-in-out .5s;
 	-o-transition: transform ease-in-out .5s, opacity ease-in-out .5s;
 	transition: transform ease-in-out .5s, opacity ease-in-out .5s;
+	@media screen and (min-width: 768px) and (max-width: 1024px){
+		display: flex;
+		flex-direction: column;	
+	}
+	@media screen and (min-width: 480px) and (max-width: 767px){
+		display: flex;
+		flex-direction: column;	
+	}
+	@media screen and (min-width: 320px) and (max-width: 479px){
+		display: flex;
+		flex-direction: column;	
+	}
 }
 .pic1{
 	width: 50%;
@@ -45,6 +60,24 @@
 	position: absolute;
 	overflow: hidden;
 	box-sizing: border-box;
+	@media screen and (min-width: 768px) and (max-width: 1024px){
+		width: 100%;
+		height: 50%;
+		object-fit: cover;
+	}
+	@media screen and (min-width: 1024px) and (max-width: 1520px){
+		object-fit: cover;
+	}
+	@media screen and (min-width: 480px) and (max-width: 767px){
+		width: 100%;
+		height: 50%;
+		object-fit: cover;
+	}
+	@media screen and (min-width: 320px) and (max-width: 479px){
+		width: 100%;
+		height: 50%;
+		object-fit: cover;
+	}
 }
 .slidetext{
 	width: 50%;
@@ -54,6 +87,24 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	@media screen and (min-width: 768px) and (max-width: 1024px){
+		width: 100%;
+		height: 100%;
+		align-items: center;
+		justify-content: flex-end;
+		}
+	@media screen and (min-width: 480px) and (max-width: 767px){
+		width: 100%;
+		height: 100%;
+		align-items: center;
+		justify-content: flex-end;
+	}
+	@media screen and (min-width: 320px) and (max-width: 479px){
+		width: 100%;
+		height: 100%;
+		align-items: center;
+		justify-content: flex-end;
+	}
 }
 .slide1 {
 	background-color:#5C3249;
@@ -92,12 +143,6 @@
 .wrapper > input {
 	display: none;
 }
-
-.wrapper .controls {
-	left: 42%;
-	position: absolute;
-}
-
 .wrapper label {
 	cursor: pointer;
 	display: inline-block;
