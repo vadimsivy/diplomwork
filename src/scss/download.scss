@@ -19,6 +19,7 @@
 }
 .download__a:hover{
 	background-color: #E71414;
+	animation: bounce 1s;
 }
 .download__a:active{
 	box-shadow: 4px 4px 30px #FF4343;
