@@ -62,7 +62,6 @@
 	@extend .menu;
 	color: white;
 	padding-top: 11px;
-	-webkit-user-select: none;
 	cursor: pointer;
 	transition: .4s;
 	transform-origin: center;
@@ -198,7 +197,6 @@
 	height: 80px;
 	background-color: #FF4343;
 	line-height: 80px;
-	vertical-align: middle;
 	text-align: center;
 	
 	@media screen and (min-width: 320px) and (max-width: 767px){
