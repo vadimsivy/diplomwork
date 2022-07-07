@@ -1,0 +1,1 @@
+{"version":3,"sources":["scss\\style.scss"],"names":[],"mappings":"AAEA,EACC,sBAED,KACC,SAED,EACC","file":"style.6a09da36.css","sourceRoot":"..\\src","sourcesContent":["\r\n\r\n*{\r\n\tbox-sizing: border-box;\r\n}\r\nbody{\r\n\tmargin: 0;\r\n}\r\na{\r\n\ttext-decoration: none;\r\n}\r\n"]}

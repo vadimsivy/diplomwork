@@ -1,0 +1,1 @@
+{"mappings":"AAEA;;;;AAGA;;;;AAGA","sources":["src/scss/style.scss"],"sourcesContent":["\r\n\r\n*{\r\n\tbox-sizing: border-box;\r\n}\r\nbody{\r\n\tmargin: 0;\r\n}\r\na{\r\n\ttext-decoration: none;\r\n}\r\n"],"names":[],"version":3,"file":"index.e8265c92.css.map","sourceRoot":"/__parcel_source_root/"}
