@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cardo:ital@1&display=swap");
+/* font-family: 'Raleway', sans-serif; */
+/* font-family: 'Cardo', serif; */
+.raleway700-13-white {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 13px;
+  text-transform: uppercase;
+  color: white;
+}
+
+.raleway900-64-white {
+  font-family: "Raleway", sans-serif;
+  font-weight: 900;
+  font-size: 64px;
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .raleway900-64-white {
+    font-size: 36px;
+  }
+}
+
+.raleway400-24-white {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: white;
+  text-align: center;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .raleway400-24-white {
+    font-size: 14px;
+  }
+}
+
+.raleway900-24-white {
+  font-family: "Raleway", sans-serif;
+  font-weight: 900;
+  font-size: 24px;
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .raleway900-24-white {
+    font-size: 15px;
+  }
+}
+
+.raleway900-24-black {
+  font-family: "Raleway", sans-serif;
+  font-weight: 900;
+  font-size: 24px;
+  color: black;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.raleway400-18-grey {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #6C7279;
+  text-align: center;
+}
+
+.raleway700-24-black {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: black;
+}
+
+.raleway400-18-red {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #ff4343;
+  text-transform: uppercase;
+}
+
+.raleway400-18-grey1 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #6C7279;
+}
+
+.cardo400-36-white {
+  font-family: "Cardo", serif;
+  text-transform: capitalize;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 49px;
+  text-align: center;
+  color: white;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .cardo400-36-white {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .cardo400-36-white {
+    font-size: 17px;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .cardo400-36-white {
+    font-size: 16px;
+  }
+}
+
+.raleway700-13 {
+  text-transform: uppercase;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 15px;
+  color: white;
+}
+
+.raleway500-30-black {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 30px;
+  color: black;
+  text-align: center;
+  line-height: 35px;
+}
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .raleway500-30-black {
+    font-size: 20px;
+    padding: 0 20px;
+  }
+}
+
+.raleway700-18-black {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: black;
+  text-align: center;
+  line-height: 21px;
+  text-transform: uppercase;
+}
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .raleway700-18-black {
+    font-size: 15px;
+  }
+}
+
+.raleway700-18-white {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: white;
+  text-align: center;
+  line-height: 21px;
+  text-transform: uppercase;
+}
+
+.raleway400-18-white {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: white;
+  text-align: center;
+  line-height: 21px;
+}
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .raleway400-18-white {
+    font-size: 14px;
+  }
+}
+
+.raleway400-18-grey-footer {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #808080;
+  text-align: center;
+}
+
+
+
+/*# sourceMappingURL=/font.32c04388.f56deb79.css.map */

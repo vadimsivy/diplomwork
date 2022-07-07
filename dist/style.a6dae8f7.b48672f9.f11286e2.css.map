@@ -1,0 +1,1 @@
+{"version":3,"sources":["style.a6dae8f7.b48672f9.css"],"names":[],"mappings":"AAAA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA","file":"style.a6dae8f7.b48672f9.f11286e2.css","sourceRoot":"","sourcesContent":["* {\n  box-sizing: border-box;\n}\n\nbody {\n  margin: 0;\n}\n\na {\n  text-decoration: none;\n}\n\n\n\n"]}

@@ -1,0 +1,37 @@
+.download {
+  margin: 114px auto;
+  max-width: 1170px;
+  height: auto;
+}
+
+.download__a {
+  margin: 50px auto;
+  display: flex;
+  width: 370px;
+  height: 80px;
+  background-color: #FF4343;
+  text-decoration: none;
+  text-transform: uppercase;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .download__a {
+    width: 280px;
+  }
+}
+
+.download__a:hover {
+  background-color: #E71414;
+  animation: bounce 1s;
+}
+
+.download__a:active {
+  box-shadow: 4px 4px 30px #FF4343;
+}
+
+
+
+
+
+/*# sourceMappingURL=/download.ca14a0db.13cfb0c8.c976a3ab.css.map */
